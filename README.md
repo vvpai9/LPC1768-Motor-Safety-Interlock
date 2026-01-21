@@ -20,30 +20,12 @@ The project demonstrates RTOS-based task scheduling, synchronization, and inter-
 
 ! (https://github.com/vvpai9/LPC1768-Motor-Safety-Interlock/blob/main/Block_Diagram.png?raw=true)
 
----
-
-## Repository Contents
-
-- Keil_v4_Installer.exe  
-- Flash_Magic_Installer.exe  
-- project.uvproj  
-- project.c  
-- system_lpc17xx.c  
-- startup_lpc17xx.s  
-- RTX_Conf_CM.h  
-- project.axf  
-- project.hex  
-- Report.pdf  
-- Presentation.pptx  
-- Poster.png  
-- LPC1768_User_Manual.pdf  
-- Working_Demo.mp4  
 
 ---
 
 ## Software Requirements
 
-- Windows OS (Windows 7/8/10 recommended)  
+- Windows OS (Windows 7/8/10/11 recommended)  
 - Keil µVision 4  
 - Flash Magic  
 - USB-to-Serial driver (if required)  
@@ -56,11 +38,13 @@ The project demonstrates RTOS-based task scheduling, synchronization, and inter-
 - HC-SR04 Ultrasonic Sensor  
 - MQ-5 Gas Sensor  
 - LM35 Temperature Sensor  
-- DC Motor  
+- DC Motor (30 or 60RPM)
 - 2-Channel Relay Module or Motor Driver  
 - External 12 V power supply for motor  
-- Connecting wires  
-- Common ground between all modules  
+- Jumper wires  
+- Breadboard
+- External 5 V power supply for Cortex-M3
+- USB to DB9 connector cable  
 
 ---
 
@@ -68,7 +52,7 @@ The project demonstrates RTOS-based task scheduling, synchronization, and inter-
 
 ### Installing Keil µVision 4
 
-1. Run Keil_v4_Installer.exe.  
+1. Download Keil µVision 4 installer
 2. Follow the installation steps.  
 3. Launch Keil µVision.  
 4. Install device packs if prompted.  
