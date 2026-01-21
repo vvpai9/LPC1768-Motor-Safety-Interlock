@@ -1,5 +1,4 @@
-# Motor Safety Interlock with Multi-Sensor Check  
-## Using RTOS on LPC1768 (ARM Cortex-M3)
+# Motor Safety Interlock with Multi-Sensor Check Using RTOS on LPC1768 (ARM Cortex-M3)
 
 This repository contains the complete implementation of a real-time motor safety interlock system developed using the LPC1768 ARM Cortex-M3 microcontroller and RTX RTOS.  
 The motor operates only under safe environmental conditions, monitored using ultrasonic, gas, and temperature sensors.
