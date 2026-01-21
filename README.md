@@ -16,9 +16,9 @@ The system continuously monitors:
 If any unsafe condition is detected, the motor is stopped immediately.  
 The project demonstrates RTOS-based task scheduling, synchronization, and inter-task communication using semaphores, event flags, and message queues.
 
-! (https://github.com/vvpai9/LPC1768-Motor-Safety-Interlock/blob/master/Poster.png?raw=true)
+! (https://github.com/vvpai9/LPC1768-Motor-Safety-Interlock/blob/main/Poster.png?raw=true)
 
-! (https://github.com/vvpai9/LPC1768-Motor-Safety-Interlock/blob/master/Block_Diagram.png?raw=true)
+! (https://github.com/vvpai9/LPC1768-Motor-Safety-Interlock/blob/main/Block_Diagram.png?raw=true)
 
 ---
 
@@ -134,9 +134,9 @@ The project demonstrates RTOS-based task scheduling, synchronization, and inter-
 | DC Motor Control | P2.0 – P2.1 |
 | Ground | Common GND |
 
-! (https://github.com/vvpai9/LPC1768-Motor-Safety-Interlock/blob/master/Interfacing_Diagram.png?raw=true)
+! (https://github.com/vvpai9/LPC1768-Motor-Safety-Interlock/blob/main/Interfacing_Diagram.png?raw=true)
 
-! (https://github.com/vvpai9/LPC1768-Motor-Safety-Interlock/blob/master/Implementation.jpeg?raw=true)
+! (https://github.com/vvpai9/LPC1768-Motor-Safety-Interlock/blob/main/Implementation.jpeg?raw=true)
 
 ---
 
@@ -197,7 +197,7 @@ Refer to Working_Demo.mp4 for the hardware demonstration.
 ## Project Website
 
 Google Sites Portfolio:  
-(https://sites.google.com/kletech.ac.in/os-esd)
+https://sites.google.com/kletech.ac.in/os-esd
 
 ---
 
