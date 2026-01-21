@@ -98,10 +98,10 @@ The project demonstrates RTOS-based task scheduling, synchronization, and inter-
 2. Put the board into ISP mode.  
 3. Open Flash Magic and configure:
     ```  
-   - Device: LPC1768  
-   - COM Port: Select from Device Manager  
-   - Baud Rate: 9600 or 115200  
-   - Interface: UART
+   Device: LPC1768  
+   COM Port: Select from Device Manager  
+   Baud Rate: 9600  
+   Interface: UART
    ```
 4. Browse and select ```project.hex```.  
 5. Click Start.  
