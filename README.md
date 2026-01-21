@@ -61,13 +61,14 @@ The project demonstrates RTOS-based task scheduling, synchronization, and inter-
 
 ---
 
-### Opening the Project in Keil
+### Creating the Project in Keil
 
 1. Open Keil µVision.  
-2. Select Project → Open Project.  
-3. Open project.uvproj.  
-4. Verify the device is LPC1768 and the target is ARM Cortex-M3.  
-5. Build the project using Project → Build Target.
+2. Select Project → New Project.  
+3. Place ```project.c``` file in the Source Group.
+4. Add ```RTX_Conf_CM.c```, ```system_LPC17xx.c``` and ```startup_LPC17xx.s``` files if required.  
+5. Verify the device is LPC1768 and the target is ARM Cortex-M3.  
+6. Build the project using Project → Build Target.
 
 ---
 
@@ -77,7 +78,7 @@ The project demonstrates RTOS-based task scheduling, synchronization, and inter-
 2. Go to the Output tab.  
 3. Enable Create HEX File.  
 4. Rebuild the project.  
-5. The file project.hex will be generated.
+5. The file ```project.hex``` will be generated.
 
 ---
 
@@ -85,7 +86,7 @@ The project demonstrates RTOS-based task scheduling, synchronization, and inter-
 
 ### Installing Flash Magic
 
-1. Run Flash_Magic_Installer.exe.  
+1. Run ```Flash_Magic_Installer.exe```.  
 2. Complete the installation.  
 3. Launch Flash Magic.
 
@@ -95,12 +96,14 @@ The project demonstrates RTOS-based task scheduling, synchronization, and inter-
 
 1. Connect the LPC1768 board to the PC via USB or Serial.  
 2. Put the board into ISP mode.  
-3. Open Flash Magic and configure:  
+3. Open Flash Magic and configure:
+    ```  
    - Device: LPC1768  
    - COM Port: Select from Device Manager  
    - Baud Rate: 9600 or 115200  
-   - Interface: UART  
-4. Browse and select project.hex.  
+   - Interface: UART
+   ```
+4. Browse and select ```project.hex```.  
 5. Click Start.  
 6. On successful flashing, reset the board.
 
@@ -131,8 +134,6 @@ The project demonstrates RTOS-based task scheduling, synchronization, and inter-
 - Sensors: 5 V from board  
 - DC Motor: External 12 V supply  
 - All grounds must be common  
-
-Use a voltage divider for HC-SR04 ECHO pin to step down 5 V to 3.3 V.
 
 ---
 
@@ -175,7 +176,7 @@ Use a voltage divider for HC-SR04 ECHO pin to step down 5 V to 3.3 V.
 
 ## Demonstration
 
-Refer to Working_Demo.mp4 for the hardware demonstration.
+Refer to ```Working_Demo.mp4``` for the hardware demonstration.
 
 ---
 
