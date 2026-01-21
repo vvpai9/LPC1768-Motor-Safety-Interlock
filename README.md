@@ -17,10 +17,9 @@ The system continuously monitors:
 If any unsafe condition is detected, the motor is stopped immediately.  
 The project demonstrates RTOS-based task scheduling, synchronization, and inter-task communication using semaphores, event flags, and message queues.
 
-! (https://github.com/vvpai9/LPC1768-Motor-Safety-Interlock/blob/main/Poster.png?raw=true)
+<img width="1536" height="1024" alt="Poster" src="https://github.com/user-attachments/assets/298967f4-aa7e-4b5a-8579-8194054dae2d" />
 
-! (https://github.com/vvpai9/LPC1768-Motor-Safety-Interlock/blob/main/Block_Diagram.png?raw=true)
-
+<img width="1536" height="1024" alt="Block_Diagram" src="https://github.com/user-attachments/assets/35518b6b-2a42-4ec7-9c4c-2303907fec99" />
 
 ---
 
@@ -122,9 +121,10 @@ The project demonstrates RTOS-based task scheduling, synchronization, and inter-
 | DC Motor Control | P2.0 – P2.1 |
 | Ground | Common GND |
 
-! (https://github.com/vvpai9/LPC1768-Motor-Safety-Interlock/blob/main/Interfacing_Diagram.png?raw=true)
+<img width="512" height="402" alt="Interfacing_Diagram" src="https://github.com/user-attachments/assets/2ea85d5f-d6c1-44c9-9e08-c4d9ae948789" />
 
-! (https://github.com/vvpai9/LPC1768-Motor-Safety-Interlock/blob/main/Implementation.jpeg?raw=true)
+![Implementation](https://github.com/user-attachments/assets/cb5175e8-f71a-4142-9e71-4dd5b2e30499)
+
 
 ---
 
